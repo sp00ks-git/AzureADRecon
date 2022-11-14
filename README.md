@@ -1,7 +1,7 @@
 # AzureADRecon: Azure Active Directory Recon [![Follow ADRecon on Twitter](https://img.shields.io/twitter/follow/ad_recon.svg?style=social&label=Follow%20%40ad_recon)](https://twitter.com/intent/user?screen_name=ad_recon "Follow ADRecon on Twitter")
 
 ```
-iex(new-object net.webclient).downloadstring('https://github.com/adrecon/AzureADRecon/blob/master/AzureADRecon.ps1')
+iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/adrecon/AzureADRecon/master/AzureADRecon.ps1')
 ```
 
 AzureADRecon is a tool which extracts and combines various artefacts (as highlighted below) out of an Azure AD environment with a valid credential. The information can be presented in a specially formatted Microsoft Excel report that includes summary views with metrics to facilitate analysis and provide a holistic picture of the current state of the target environment.
